@@ -1,0 +1,72 @@
+/* needed to fit background to entire page.*/
+body {
+	background-image: url("../images/background_img2.jpg");
+	background-size: "fit to screen";
+}
+
+/* need to fix padding to have h fit to border*/
+.row_text-center_header {
+	padding: 50px;
+	margin: 25px;
+
+	width: 50%
+	border: 5px solid blue
+	float: center;
+}
+
+.container {
+	width: 55%;
+	border-style:solid;
+	border-width: 10px solid lightblue;
+	float: center;
+	padding: 50px;
+}
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.buttons {
+	margin-bottom: 1em;
+}
+
+ .column {
+ 	font-color: white;
+	float: right;
+}
+/* need to set picture to fill border so it shows entire pic. */
+.header {
+	background-image: url("../images/img1.jpg");
+	background-size:stretch;
+	color: white;
+	border: 50%;
+	text-shadow: 0 1px purple,
+						0 2px 0 #900,
+						0 3px 0 #888,
+						0 9px 7px # 302314;
+}
+
+
+h1 {
+	font-size: 100px;
+	text-shadow: 0 0 5px blue;
+					
+	float: center;
+}
+
+p {
+	border: 50px;
+	float:left;
+}
+
+#user-letters {
+		text-transform: uppercase;
+}
+
+}
+/* need to set user score and computer score apart*/
+.id= "score-2" {"margin:10px;"> {
+	float:right;
+}
